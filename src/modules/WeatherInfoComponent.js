@@ -2,12 +2,14 @@ import React from "react";
 import styled from "styled-components";
 import { WeatherIcons } from "../App";
 
+import "../icons";
+
 export const WeatherInfoIcons = {
-  sunset: "../../public/icons/react-weather-app/icons/temp.svg",
-  sunrise: "../../public/icons/react-weather-app/icons/temp.svg",
-  humidity: "../../public/icons/react-weather-app/icons/humidity.svg",
-  wind: "../../public/icons/react-weather-app/icons/wind.svg",
-  pressure: "../../public/icons/react-weather-app/icons/pressure.svg",
+  sunset: "../icons/react-weather-app/icons/temp.svg",
+  sunrise: "../icons/react-weather-app/icons/temp.svg",
+  humidity: "../icons/react-weather-app/icons/humidity.svg",
+  wind: "../icons/react-weather-app/icons/wind.svg",
+  pressure: "../icons/react-weather-app/icons/pressure.svg",
 };
 const Location = styled.span`
   margin: 15px auto;

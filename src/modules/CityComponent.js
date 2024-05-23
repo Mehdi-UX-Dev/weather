@@ -46,7 +46,7 @@ const CityComponent = (props) => {
   return (
     <>
       <WelcomeWeatherLogo
-        src={"../../public/icons/react-weather-app/icons/perfect-day.svg"}
+        src={"../icons/react-weather-app/icons/perfect-day.svg"}
       />
       <ChooseCityLabel>Find Weather of your city</ChooseCityLabel>
       <SearchBox onSubmit={fetchWeather}>
